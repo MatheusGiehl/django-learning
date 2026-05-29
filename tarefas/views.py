@@ -3,4 +3,7 @@ from django.http import HttpResponse
 
 def home(request):
     frase = 'Olá Mundo!'
-    return HttpResponse(frase)
+    return HttpResponse(frase)      
+
+def add(request):
+    return HttpResponse("Adicione uma tarefa!")
